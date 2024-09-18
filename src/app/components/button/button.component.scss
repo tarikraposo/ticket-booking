@@ -1,0 +1,13 @@
+@import "../../../styles.scss";
+
+.btn{
+    width: 100%;
+    padding: 16px;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    background-color: $--primary-color;
+    font-size: 18px;
+    font-weight: 500;
+}
+

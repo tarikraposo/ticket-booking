@@ -1,0 +1,63 @@
+@import "../../../styles.scss";
+
+.home-container {
+  padding: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid $--primary-color;
+    }
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    h1 {
+      font-size: 30px;
+      color: $--primary-color;
+    }
+    span {
+      font-size: 18px;
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+  .all-movies-title {
+    display: flex;
+    justify-content: space-between;
+    color: $--primary-color;
+    h2 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+    span {
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+  .images {
+    display: flex;
+    height: 184px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-right: 0px;
+    p {
+      color: #fff;
+    }
+    span {
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+}
