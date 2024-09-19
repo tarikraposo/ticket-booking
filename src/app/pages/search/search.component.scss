@@ -1,0 +1,71 @@
+@import "../../../styles.scss";
+
+main {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: space-around;
+  .title-control {
+    h1 {
+      font-size: 30px;
+      color: $--primary-color;
+      a {
+        text-decoration: none;
+        color: $--primary-color;
+      }
+    }
+    font-size: 30px;
+    p {
+      font-size: 18px;
+      color: #fff;
+      opacity: 0.5;
+    }
+  }
+  .input-control {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    input {
+      background-color: transparent;
+      border: none;
+    }
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .heading-control {
+      display: flex;
+      color: $--primary-color;
+      justify-content: space-between;
+      align-content: center;
+
+      h2 {
+        font-size: 16px;
+      }
+      span {
+        font-size: 12px;
+      }
+    }
+    .movies-control {
+      display: flex;
+      height: 100%;
+      font-size: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      p {
+        color: #fff;
+      }
+      span {
+        color: #fff;
+        opacity: 0.5;
+      }
+    }
+  }
+}

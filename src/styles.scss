@@ -4,18 +4,16 @@ $--secondary-color: rgba(252, 9, 76, 0.3);
 $--primary-background: #1b1819;
 $--secondary-background: #575757;
 
-:root{
-  background-color: white;
-}
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html,
 body {
-  border-radius: 43px;
   background-color: $--primary-background;
   height: 100%;
   width: 100%;

@@ -1,0 +1,29 @@
+<main>
+  <div class="title-control">
+    <h1><a routerLink="/home"> Browse </a></h1>
+    <p>Movies in Channel</p>
+  </div>
+  <div class="input-control">
+    <img ngSrc="/img/png/mag-glass.png" height="16" width="16" />
+    <input type="text" placeholder="Search movies or theathes" />
+  </div>
+  <section>
+    <div class="heading-control">
+      <h2>All Movies</h2>
+      <span>Filters v</span>
+    </div>
+    <div class="movies-control">
+      <div *ngFor="let img of [].constructor(totalImagens); let i = index">
+        <img
+          [src]="'/img/png/movie-' + (i + 1) + '.png'"
+          width="94"
+          height="140"
+          alt=""
+          priority
+        />
+        <p>Movie Name</p>
+        <span>00h 00m</span>
+      </div>
+    </div>
+  </section>
+</main>
