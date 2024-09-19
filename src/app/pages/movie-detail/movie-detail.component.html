@@ -1,0 +1,35 @@
+<main>
+  <section class="top-section">
+</section>
+<div class="cast-control">
+    <div class="title-control">
+      <p>Drama, Crime</p>
+      <h1>Zack Snyder's Justice Leader</h1>
+    </div>
+    <div class="rating-control">
+      <p>*****</p>
+      <p>4h 02m</p>
+    </div>
+    <div class="sinopse-control">
+      <p>
+        Zack Snyder's Justice League is the 2021 director's cut of the 2017
+        American superhero film Justice League, the fifth installment in the DC
+        Extended Universe (DCEU) and an immediate sequel to Batman v Superman:
+        Dawn of Justice (2016)presented the way originally intended by...
+      </p>
+    </div>
+    <p>Director & Cast</p>
+    <div class="image-cast-control">
+      <div *ngFor="let img of [].constructor(totalImagens); let i = index">
+        <img
+          [src]="'/img/png/cast-' + (i + 1) + '.png'"
+          width="94"
+          height="120"
+          alt=""
+          priority
+        />
+      </div>
+    </div>
+    <app-button name="Buy tickets" class="btn"/>
+  </div>
+</main>
